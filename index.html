@@ -19,7 +19,7 @@
       <a href="tel:+78007750530" class="header__tel">8 800 775 05 30</a>
       <div class="header__logo logo">
         <img src="assets/img/logo.png" alt="" class="logo__img">
-        <button class="btn btn_header">
+        <button class="btn header__btn">
           ОСТАВИТЬ ЗАЯВКУ
         </button>
       </div>
@@ -54,15 +54,14 @@
   <main class="main">
     <div class="main__inner">
       <div class="container">
-        <div class="main__title">
-          <h1 class="main__h1">КРЕПЁЖ ДЛЯ ФАСАДНЫХ СИСТЕМ</h1>
+        <div class="main__titles">
+          <h1 class="main__title">КРЕПЁЖ ДЛЯ ФАСАДНЫХ СИСТЕМ</h1>
           <p class="main__subtitle">с уникальным антикоррозионным покрытием</p>
         </div>
-        <button class="btn btn_main">УЗНАТЬ ПОДРОБНЕЕ</button>
-        <div class="advantages">
-          <div class="advantages-item">
-            <div class="advantages__block"></div>
-            <div class="advantages-item__text">Защита от коррозии 50 лет в агрессивной среде</div>
+        <button class="btn ">УЗНАТЬ ПОДРОБНЕЕ</button>
+        <div class="main__advantages">
+          <div class="main__advantage advantage">
+            <div class="advantage__text">Защита от коррозии 50 лет в агрессивной среде</div>
           </div>
           <div class="advantages-item">">
             <div class="advantages__block"></div>
@@ -80,18 +79,17 @@
       </div>
     </div>
   </main>
+
   <section class="section fastener">
     <div class="fastener__inner">
-      <div class="fastener-inner__title">
-        <h2 class="section__title">Фасадный крепёж нового поколения</h2>
-      </div>
-      <div class="fastener-inner__main">
-        <div class="text-block text-block_left">
+      <h2 class="fastener__title section__title text-center">Фасадный крепёж нового поколения</h2>
+      <div class="fastener__main">
+        <div class="fastener__left">
           <h3 class="section__title">Неуязвимость к внешним воздействиям</h3>
           <p>Углеродистая сталь в сочетании с покрытием DELTA MKS делаетнаш крепёж практически неуязвимым</p>
           <p>Предотвращает скручивание головки саморезов на повышенном моменте затяжки</p>
         </div>
-        <div class="bolt">
+        <div class="fastener__bolt">
           <div class="bolt__inner">
             <img class="bolt-inner__img" src="" alt="">
           </div>
@@ -99,9 +97,10 @@
           <button class="btn-plus">+</button>
           <button class="btn-plus">+</button>
         </div>
-        <div class="text-block text-block_right">
+        <div class="fastener__right">
           <h3 class="section__title">Антикоррозионная защита на десятилетия</h3>
-          <p>Цинк-ламельное покрытие DELTA MKS защищает от коррозии минимум 50 летв активной атмосфере приморского
+          <p class="fastener__text">Цинк-ламельное покрытие DELTA MKS защищает от коррозии минимум 50 летв активной
+            атмосфере приморского
             города.</p>
           <p>Особый компонент в составе покрытия исключает не только атмосферную, но и контактную коррозиюс алюминиевым
             профилем</p>
@@ -115,9 +114,7 @@
       </div>
     </div>
     <div class="fastener-colors">
-      <button class="btn-color">
-        <img src="" alt="" class="btn-color__img">
-      </button>
+      <button class="fastener-colors__btn"></button>
       <button class="btn-color">
         <img src="" alt="" class="btn-color__img">
       </button>
@@ -161,12 +158,12 @@
           <a class="nav-catalog__btn" href="">Крепёж по чертежам</a>
         </nav>
       </div>
-      <div class="main-catalog">
-        <div class="main-catalog__position">
-          <div class="main-catalog__article">DR1015</div>
-          <img src="" alt="" class="catalog__img">
-          <div class="main-catalog__text  main-catalog__text_size_s">Шуруп по дереву, полусфера</div>
-          <div class="">с фаской и углублением</div>
+      <div class="catalog__list">
+        <div class="product">
+          <div class="product__article">DR1015</div>
+          <img src="" alt="" class="product__img">
+          <div class="product__title">Шуруп по дереву, полусфера</div>
+          <div class="product__subtitle">с фаской и углублением</div>
         </div>
         <div class="main-catalog__position">
           <div class="main-catalog__article">DR1015</div>
@@ -211,12 +208,14 @@
           <div class="">с фаской и углублением</div>
         </div>
       </div>
-      <div class="catalog-footer">
-        <a class="catalog-footer__a" href="">ПОКАЗАТЬ ВСЕ</a>
-        <button class="btn">СКАЧАТЬ «СПРАВОЧНИК КОНСТРУКТОРА»</button>
+      <div class="catalog__footer">
+        <a class="catalog__toggle-more" href="">ПОКАЗАТЬ ВСЕ</a>
+        <button class="catalog__btn btn">СКАЧАТЬ «СПРАВОЧНИК КОНСТРУКТОРА»</button>
       </div>
     </div>
   </section>
+
+  <!--  check alex here -->
   <section class="section replacement">
     <div class="container">
       <div class="replacement__inner">
@@ -354,23 +353,21 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="about-us">
-      <div class="container">
-        <div class="about-us__top">
-          <div class="about-us__title"></div>
-          <div class="description">
-            <div class="description__item"></div>
-            <div class="description__item"></div>
-            <div class="description__item"></div>
-            <div class="description__item"></div>
-          </div>
+  <section class="section about-us">
+    <div class="container">
+      <div class="about-us__top">
+        <div class="about-us__title"></div>
+        <div class="description">
+          <div class="description__item"></div>
+          <div class="description__item"></div>
+          <div class="description__item"></div>
+          <div class="description__item"></div>
         </div>
-        <div class="about-us__text"></div>
-        <img src="" alt="" class="about-us__man">
-        <img src="" alt="" class="about-us__logo">
-        <div class="about-us__name"></div>
       </div>
+      <div class="about-us__text"></div>
+      <img src="" alt="" class="about-us__man">
+      <img src="" alt="" class="about-us__logo">
+      <div class="about-us__name"></div>
     </div>
   </section>
 

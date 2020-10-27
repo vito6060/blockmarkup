@@ -82,16 +82,16 @@ ul, ol {
   justify-content: center;
 }
 
-menu__list:last-child {
-  border-right: none;
-}
-
 .menu__item {
   padding: 0 25px;
 
   border-right: 1px #7F7F88 solid;
 
   list-style: none;
+}
+
+.menu__item:last-child {
+  border-right: none;
 }
 
 .menu__link {
