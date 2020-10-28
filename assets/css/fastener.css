@@ -1,0 +1,66 @@
+.fastener {
+  padding: 110px 230px;
+}
+
+.fastener-inner__title {
+  padding-bottom: 50px;
+  margin-bottom: 16px;
+
+  font-size: 30px;
+  font-weight: 400;
+  color: #707076;
+
+  text-align: center;
+}
+
+.fastener-inner__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-block {
+  width: 312px;
+
+  color: #868692;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.section__title {
+  padding-bottom: 20px;
+
+  color: #707076;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-block p {
+  padding-bottom: 25px;
+}
+
+.fastener-colors {
+  text-align: center;
+}
+
+.fastener__text {
+  margin: 33px 0;
+
+  font-size: 23px;
+  color: #707076;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.fasteber__btn {
+  width: 372px;
+  height: 76px;
+
+  text-align: center;
+
+  font-size: 15px;
+}
+
+
+
+

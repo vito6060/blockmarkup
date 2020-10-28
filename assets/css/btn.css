@@ -1,0 +1,28 @@
+.btn {
+  color: #383331;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 1.7px;
+
+  background-image: linear-gradient(to top, #FFAC2B, #FFC331);
+
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px #DC9119;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #FFAC2B, #FFC331);
+}
+
+.btn:active {
+  background-color: #e5b236;
+  box-shadow: 0 1px #be7d15;
+  transform: translateY(5px);
+}
