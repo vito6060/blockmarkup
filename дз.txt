@@ -18,3 +18,35 @@
 https://onlinefontconverter.com/
 2. Скинуть шрифт FuturaPT
 3. Скинуть кнопки для болта
+
+
+====================
+
+1. Глянуть вот этот сайтик
+https://davidwalsh.name/demo/css-content-attr.php
+
+2. Выполнить домашку на before и after
+2.1 Нарисовать животное
+2.2 На атрибут data-name чтобы в content: attr использовать
+
+3. DR A2
+<div class="a2"></div>
+<div class="dr"></div>
+
+4. Сверстать первый экран с затемнением
+Фотка должна занимать 100% высоты и ширины. Чтобы пропорции не терялись
+Фотка должны быть темной. rgba(0, 0, 0, 0.4)
+overlay сделать через after
+Реки: object-fit, object-position
+https://webref.ru/css/object-fit
+
+IMG             - Bg
+object-fit      - bgz
+object-position - bgp
+
+Тест: взять любую фотку из яндекса и подставить ссылку в img
+Ожидание: фотки может обрезаться, но терять свои пропорции. И должны быть затемнена
+
+Подсказка after нужно через pos:a w100p h100p bgc
+
+5. Добить компоненты в index.html

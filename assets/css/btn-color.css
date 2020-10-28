@@ -5,27 +5,18 @@
   display: inline-block;
   vertical-align: middle;
   border: 1px solid #d4d4d4;
-  height: 32px;
   line-height: 32px;
-  padding: 0px 25.6px;
   font-weight: 300;
   font-size: 14px;
   color: #666666;
   text-shadow: 0 1px 1px white;
-  margin: 0;
   text-decoration: none;
   text-align: center;
-}
-
-.btn-circle {
-  margin-left: 5px;
-  margin-right: 5px;
 
   border-radius: 240px;
   width: 40px;
   height: 40px;
-  padding: 0px;
-  border-width: 1px;
+  padding: 0;
 }
 
 .btn-color:hover {
@@ -46,74 +37,74 @@
   outline: none;
 }
 
-.btn-silver {
+.btn-color_color_silver {
   background-color: #DADADA;
 }
 
-.btn-silver:hover {
+.btn-color_silver:hover {
   background-color: #ccc8c8;
 }
 
-.btn-gold {
+.btn-color_gold {
   background-color: #FEDA69;
 }
 
-.btn-gold:hover {
+.btn-color_gold:hover {
   background-color: #ffd550;
 }
 
-.btn-red {
+.btn-color_red {
   background-color: #BF0705;
 }
 
-.btn-red:hover {
+.btn-color_red:hover {
   background-color: #af0200;
 }
 
-.btn-black {
+.btn-color_black {
   background-color: #050505;
 }
 
-.btn-black:hover {
+.btn-color_black:hover {
   background-color: #121212;
 }
 
-.btn-yellow {
+.btn-color_yellow {
   background-color: #FFC105;
 }
 
-.btn-yellow:hover {
+.btn-color_yellow:hover {
   background-color: #f8bf12;
 }
 
-.btn-green {
+.btn-color_green {
   background-color: #73AF4A;
 }
 
-.btn-green:hover {
+.btn-color_green:hover {
   background-color: #649840;
 }
 
-.btn-blue {
+.btn-color_blue {
   background-color: #335898;
 }
 
-.btn-blue:hover {
+.btn-color_blue:hover {
   background-color: #305491;
 }
 
-.btn-brown {
+.btn-color_brown {
   background-color: #683608;
 }
 
-.btn-brown:hover {
+.btn-color_brown:hover {
   background-color: #5c3109;
 }
 
-.btn-lightblue {
+.btn-color_lightblue {
   background-color: #5C9DD7;
 }
 
-.btn-lightblue:hover {
+.btn-color_lightblue:hover {
   background-color: #558bbc;
 }
