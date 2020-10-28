@@ -30,12 +30,71 @@ ul, ol {
   min-height: 100vh;
 }
 
+<<<<<<< HEAD
 @font-face {
     font-family: 'Futura PT';
     src: url('FuturaPT-Bold.woff2')               format('woff2'),
         url('FuturaPT-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+=======
+.logo__img {
+  width: 177px;
+  height: 55px;
+}
+
+.menu {
+  margin: 20px auto;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__item {
+  padding: 0 25px;
+
+  border-right: 1px #7F7F88 solid;
+
+  list-style: none;
+}
+
+.menu__item:last-child {
+  border-right: none;
+}
+
+.menu__link {
+  font-size: 18px;
+  color: #7F7F88;
+  text-decoration: none;
+}
+
+/* Btn
+=============================*/
+
+.btn {
+  color: #383331;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 1.7px;
+
+  background-image: linear-gradient(to top, #FFAC2B, #FFC331);
+  cursor: pointer;
+
+  border: none;
+  box-shadow: 10px;
+}
+
+.btn_header {
+  width: 187px;
+  height: 54px;
+}
+
+.btn_header:hover {
+  background-image: linear-gradient(to bottom, #FFAC2B, #FFC331);
+>>>>>>> 73b9563c7cdc2f7203e157c27e06e7a60d1bbc66
 }
 
 
