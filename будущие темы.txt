@@ -1,7 +1,9 @@
-1. before, after
-2. адаптация
-3. ssh
-4. PR
-5. autoprefixer
-6. caniuse.com
-7.
+- before, after
+- адаптация
+- ssh
+- PR
+- autoprefixer
+- caniuse.com
+- Препроцессоры
+- Gulp
+-

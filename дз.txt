@@ -27,7 +27,7 @@ https://davidwalsh.name/demo/css-content-attr.php
 
 2. Выполнить домашку на before и after
 2.1 Нарисовать животное
-2.2 На атрибут data-name чтобы в content: attr использовать
++2.2 На атрибут data-name чтобы в content: attr использовать
 
 3. DR A2
 <div class="a2"></div>
@@ -50,3 +50,25 @@ object-position - bgp
 Подсказка after нужно через pos:a w100p h100p bgc
 
 5. Добить компоненты в index.html
+
+
+=================
+
+1. assets/css/header.css:29 загляни сюда
+2. глянуть сюда http://shpargalkablog.ru/2017/04/position-sticky.html
+3. скачать расширение https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru
+4. Плюсики через before и after
+5. Заменить border у плюсиков
+6. Реализовать остальные тултипы
+7*. Сделать анимацию без jq
+Подсказки:
+- в CSS должен быть active который из op 0 -> 1
+8. Доделать мишку
+http://shpargalkablog.ru/2013/11/trapeze.html
+
+Полезные ссылки:
+1. Проверка кроссбраузрености www.browserstack.com
+2. ПП - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru
+3. Валидатор HTML - http://validator.w3.org/
+4. Временная почта на 10 мин - https://10minutemail.net/
+5. Буфер обмена - http://clipdiary.com/rus/
