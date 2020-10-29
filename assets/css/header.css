@@ -1,7 +1,7 @@
 .header {
-<<<<<<< HEAD
-  width: 100%;
-  height: 150px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .header__info {
@@ -27,9 +27,9 @@
   text-decoration: underline;
 }
 
+/* todo вынеси в отдельный файлик. И во всех файлах перепроверь */
 .logo__img {
   width: 177px;
-  height: 55px;
 }
 
 .header__btn {
@@ -38,22 +38,16 @@
 }
 
 .header__menu-wrap {
-  height: 45%;
-
+  padding: 20px 0;
   background-color: #ffffff;
 }
 
 .menu {
-  margin: 20px auto;
 }
 
 .menu__list {
   display: flex;
   justify-content: center;
-}
-
-menu__list:last-child {
-  border-right: none;
 }
 
 .menu__item {
@@ -70,16 +64,14 @@ menu__list:last-child {
 
 .menu__link {
   font-size: 18px;
-  color: #7F7F88;
   text-decoration: none;
-
   display: block;
   color: #aaa;
-
   transition: color .3s ease-out;
 }
 
 .menu__link:hover {
   color: #be7d15;
+}
 
 
