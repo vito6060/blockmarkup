@@ -1,8 +1,10 @@
 .fastener {
   padding: 110px 230px;
+
+  background-color: #F1F1F4;
 }
 
-.fastener-inner__title {
+.fastener__title {
   padding-bottom: 50px;
   margin-bottom: 16px;
 
@@ -13,20 +15,23 @@
   text-align: center;
 }
 
-.fastener-inner__main {
+.fastener__main {
   display: flex;
   justify-content: space-between;
+
+  position: relative;
 }
 
-.text-block {
-  width: 312px;
+.fastener__left,
+.fastener__right {
+  width: 325px;
 
   color: #868692;
   font-size: 16px;
   line-height: 1.4;
 }
 
-.section__title {
+.section__subtitle {
   padding-bottom: 20px;
 
   color: #707076;
@@ -34,11 +39,14 @@
   font-weight: 400;
 }
 
-.text-block p {
+.fastener__left p,
+.fastener__right p {
   padding-bottom: 25px;
 }
 
 .fastener-colors {
+  margin-top: 49.5px;
+
   text-align: center;
 }
 
@@ -69,6 +77,39 @@
   font-size: 15px;
 }
 
+.white-square {
+  display: flex;
+  width: 200px;
 
+  margin-top: 79px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.white-square__text {
+  margin-top: 5px;
+  padding-left: 20px;
+
+  font-weight: 400;
+
+  color: #868692;
+}
+
+.white-square__dr {
+  width: 45px;
+  height: 45px;
+  padding-top: 10px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-align: center;
+
+  background-color: #FFC72C;
+}
 
 

@@ -81,35 +81,5 @@ menu__list:last-child {
 
 .menu__link:hover {
   color: #be7d15;
-=======
-    width: 100%;
-    height: 187px;
-}
 
-.header__row {
-    display: flex;
-    justify-content: space-between;
-    height: 50%;
-    padding: 17px 200px;
 
-    background-color: #404040;
-}
-
-.header__tel {
-    text-decoration: none;
-    color: #FDC52B;
-    font-family: 'Manrope', sans-serif;
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.header__tel:hover {
-    text-decoration: underline;
-}
-
-.header__menu-wrap {
-    height: 50%;
-
-    background-color: #ffffff;
->>>>>>> 73b9563c7cdc2f7203e157c27e06e7a60d1bbc66
-}
