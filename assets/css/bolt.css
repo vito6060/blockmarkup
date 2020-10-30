@@ -9,7 +9,7 @@
   height: 35px;
   padding: 0px;
   border-width: 1px;
-  border-color: #fff;
+  border-color: #7b0606;
 
   cursor: pointer;
 
@@ -19,9 +19,30 @@
   box-shadow: 0 0 0 3px #FCC734;
 }
 
+.btn-plus::before {
+  width: 3px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.btn-plus::after {
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
 .btn-plus:active {
   border-color: #fff;
   box-shadow: none;
+  border: none;
 }
 
 .btn-plus:focus {
@@ -72,25 +93,9 @@
   left: 0;
 }
 
-.tooltip {
-  background: #fff;
-  color: #868692;
-  padding: 8px 16px;
-  font-size: 12px;
-  cursor: default;
-
-  border: 1px rgba(150, 174, 188, .5) solid;
-  border-radius: .3px;
-  box-shadow: 0 0 0 5px #fff;
-}
-
-.tooltip__text {
-
-}
-
 .bolt__tooltip {
   position: absolute;
-  opacity: 0;
+  display: none;
 }
 
 .bolt__tooltip_top {

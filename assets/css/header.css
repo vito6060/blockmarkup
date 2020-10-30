@@ -27,11 +27,6 @@
   text-decoration: underline;
 }
 
-/* todo вынеси в отдельный файлик. И во всех файлах перепроверь */
-.logo__img {
-  width: 177px;
-}
-
 .header__btn {
   width: 187px;
   height: 54px;
@@ -41,37 +36,3 @@
   padding: 20px 0;
   background-color: #ffffff;
 }
-
-.menu {
-}
-
-.menu__list {
-  display: flex;
-  justify-content: center;
-}
-
-.menu__item {
-  padding: 0 35px;
-
-  border-right: 1px #7F7F88 solid;
-
-  list-style: none;
-}
-
-.menu__item:last-child {
-  border: none;
-}
-
-.menu__link {
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-  color: #aaa;
-  transition: color .3s ease-out;
-}
-
-.menu__link:hover {
-  color: #be7d15;
-}
-
-

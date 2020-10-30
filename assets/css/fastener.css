@@ -78,39 +78,4 @@
   font-size: 15px;
 }
 
-.white-square {
-  display: flex;
-  width: 200px;
-
-  margin-top: 79px;
-
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.white-square__text {
-  margin-top: 5px;
-  padding-left: 20px;
-
-  font-weight: 400;
-
-  color: #868692;
-}
-
-.white-square__dr {
-  width: 45px;
-  height: 45px;
-  padding-top: 10px;
-
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-
-  text-align: center;
-
-  background-color: #FFC72C;
-}
-
 

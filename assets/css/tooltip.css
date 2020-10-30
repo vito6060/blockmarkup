@@ -1,0 +1,26 @@
+.tooltip {
+  background: #fff;
+  color: #868692;
+  padding: 8px 20px;
+  font-size: 12px;
+  cursor: default;
+  width: 300px;
+
+  border: 1px rgba(150, 174, 188, .5) solid;
+  border-radius: .3px;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+.tooltip__text {
+  width: 262px;
+  margin: 27px 0;
+}
+
+.tooltip-item {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.tooltip-item p {
+  padding-bottom: 5px;
+}
