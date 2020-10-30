@@ -1,0 +1,42 @@
+.btn-plus {
+    display: block;
+    position: relative;
+    background-color: #FCC734;
+    border-radius: 240px;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    border-width: 1px;
+    border-color: #7b0606;
+
+    cursor: pointer;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    box-shadow: 0 0 0 3px #FCC734;
+
+    outline: none;
+}
+
+.btn-plus::before {
+    content: '';
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.btn-plus::after {
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}

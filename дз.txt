@@ -26,7 +26,7 @@ https://onlinefontconverter.com/
 https://davidwalsh.name/demo/css-content-attr.php
 
 2. Выполнить домашку на before и after
-2.1 Нарисовать животное
++2.1 Нарисовать животное
 +2.2 На атрибут data-name чтобы в content: attr использовать
 
 3. DR A2
@@ -54,11 +54,11 @@ object-position - bgp
 
 =================
 
-1. +assets/css/header.css:29 загляни сюда 
-2. +глянуть сюда http://shpargalkablog.ru/2017/04/position-sticky.html 
-3. +скачать расширение https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru
+1. +assets/css/header.css:29 загляни сюда
++2. +глянуть сюда http://shpargalkablog.ru/2017/04/position-sticky.html
++3. +скачать расширение https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru
 4. -Плюсики через before и after
-5. +Заменить border у плюсиков 
+5. +Заменить border у плюсиков
 6. +-Реализовать остальные тултипы
 7*.-Сделать анимацию без jq
 Подсказки:
@@ -72,3 +72,20 @@ http://shpargalkablog.ru/2013/11/trapeze.html
 3. Валидатор HTML - http://validator.w3.org/
 4. Временная почта на 10 мин - https://10minutemail.net/
 5. Буфер обмена - http://clipdiary.com/rus/
+
+
+====== Lesson 5 ======
+
+ДЗ:
+1. Доделать плюсики
+2. Скачать расширение https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh
+3. Глянуть про объекты
+https://learn.javascript.ru/object-copy
+https://learn.javascript.ru/object-methods
+4. Глянуть как работает forEach, map, reduce, filter, some, even
+5. Написать делегирование событий
+https://learn.javascript.ru/event-delegation
+На почитать про всплытие событий в js
+6. Доподключить шрифты
+
+Если интересно, то почитать про bind, call/apply

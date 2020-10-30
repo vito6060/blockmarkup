@@ -23,10 +23,8 @@
   margin: 0 auto;
 }
 
-.fastener__left,
-.fastener__right {
+.fastener__article {
   width: 325px;
-
   color: #868692;
   font-size: 16px;
   line-height: 1.4;
