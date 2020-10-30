@@ -90,7 +90,7 @@
 
 .bolt__tooltip {
   position: absolute;
-  opacity: 0;
+  display: none;
 }
 
 .bolt__tooltip_top {
