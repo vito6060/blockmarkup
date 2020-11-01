@@ -67,3 +67,37 @@ colorBtns.forEach(function (btn) {
 function changeColor(event) {
   originBolt.src = event.target.dataset.src
 }
+//========================================
+
+let fastenerColors = document.querySelector('fastener-colors');
+
+fastenerColors.addEventListener('click', function(event) {
+  if (event.target.isShowTop) {
+    tooltipTop.style.display = 'block'
+  }
+  else {
+    tooltipTop.style.display = 'none'
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
