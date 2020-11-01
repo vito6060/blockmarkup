@@ -77,7 +77,7 @@ http://shpargalkablog.ru/2013/11/trapeze.html
 ====== Lesson 5 ======
 
 ДЗ:
-1. +Доделать плюсики
++-1. +Доделать плюсики
 2. +Скачать расширение https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh
 3. +Глянуть про объекты
 +https://learn.javascript.ru/object-copy
@@ -86,18 +86,31 @@ http://shpargalkablog.ru/2013/11/trapeze.html
 5. (!Попробую еще сам понять!) Написать делегирование событий
 https://learn.javascript.ru/event-delegation
 На почитать про всплытие событий в js
-6. +Доподключить шрифты
++6. +Доподключить шрифты
 
 Если интересно, то почитать про bind, call/apply
 
 ===================[ То, что не понял ]=========================
 
-1. Квадратные скобки (Oblect.Assign) https://learn.javascript.ru/object-copy
-2. Стрелочная ф-ция https://learn.javascript.ru/object-methods
-3. Внутренняя реализация: Ссылочный тип
-4. Сломанные плюсики 
-5. Как проверить подключены ли шрифты
++1. Квадратные скобки (Object.Assign) https://learn.javascript.ru/object-copy
++-2. Стрелочная ф-ция https://learn.javascript.ru/object-methods
++3. Внутренняя реализация: Ссылочный тип
++4. Сломанные плюсики
++5. Как проверить подключены ли шрифты
+
+====== Lesson 6 ======
+
+ДЗ:
+1. border-radius у плюсиков добавить (6px)
+2. Посмотреть https://developer.mozilla.org/ru/docs/Web/API/Element/classList
+3. Доделать 3 плюсик
+4. Домашка на делегирование событий
+5. Прочитать https://learn.javascript.ru/arguments-pseudoarray
+Написать прогу с любым количеством переданных параметров
 
 
-
-
+Саня:
+1. скинуть статью по сигнатурам
+2. дать 5 домашку
+3. подготовить материалы для стрелочных функций
+4. дать 4 домашку

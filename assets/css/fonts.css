@@ -1,6 +1,6 @@
 @font-face {
     font-weight: 700;
-    font-family: 'Futura PT';
+    font-family: 'FuturaPT';
     font-style: normal;
     font-display: swap;
     src: local('FuturaPT'), url("../fonts/FuturaPT-Bold/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold/FuturaPT-Bold.woff") format("woff");
@@ -11,7 +11,7 @@
     font-family: 'Manrope';
     font-style: normal;
     font-display: swap;
-    src: local('FuturaPT'), url("../fonts/Manrope-Bold/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold/Manrope-Bold.woff") format("woff");
+    src: local('Manrope'), url("../fonts/Manrope-Bold/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold/Manrope-Bold.woff") format("woff");
 }
 
 @font-face {
