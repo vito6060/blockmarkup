@@ -16,13 +16,8 @@
   margin: 27px 0;
 }
 
-/* todo заменить на tooltip__item */
-.tooltip-item {
-  margin-bottom: 8px;
-  line-height: 1.5;
+.tooltip__item {
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
-/* todo через br */
-.tooltip-item p {
-  padding-bottom: 5px;
-}

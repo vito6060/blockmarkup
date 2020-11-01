@@ -65,5 +65,5 @@ colorBtns.forEach(function (btn) {
 
 
 function changeColor(event) {
-  originBolt.src = this.dataset.src
+  originBolt.src = event.target.dataset.src
 }

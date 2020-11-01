@@ -1,0 +1,87 @@
+@font-face {
+    font-weight: 700;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-display: swap;
+    src: local('FuturaPT'), url("../fonts/FuturaPT-Bold/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold/FuturaPT-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-display: swap;
+    src: local('FuturaPT'), url("../fonts/Manrope-Bold/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold/Manrope-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-display: swap;
+    src: local('Manrope'), url("../fonts/Manrope-ExtraBold/Manrope-ExtraBold.woff2") format("woff2"), url("../fonts/Manrope-ExtraBold/Manrope-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-display: swap;
+    src: local('Manrope'), url("../fonts/Manrope-Medium/Manrope-Medium.woff2") format("woff2"), url("../fonts/Manrope-Medium/Manrope-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-display: swap;
+    src: local('Manrope'), url("../fonts/Manrope-Regular/Manrope-Regular.woff2") format("woff2"), url("../fonts/Manrope-Regular/Manrope-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: local('Roboto'), url("../fonts/Roboto-Black/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black/Roboto-Black.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: local('Roboto'), url("../fonts/Roboto-Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold/Roboto-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: local('Roboto'), url("../fonts/Roboto-Medium/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium/Roboto-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: local('Roboto'), url("../fonts/Roboto-Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
