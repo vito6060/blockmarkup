@@ -117,7 +117,10 @@ https://learn.javascript.ru/event-delegation
 
 ====== Lesson 7 ======
 
-
+Дз:
+Выполнить две каты
+https://www.codewars.com/kata/515e271a311df0350d00000f
+https://www.codewars.com/kata/5a2be17aee1aaefe2a000151
 
 Саня:
 1. Скинуть про версии библиотек
