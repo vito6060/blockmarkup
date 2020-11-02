@@ -32,6 +32,21 @@ btnMiddle.addEventListener('click', function (event) {
   isShowMiddle = !isShowMiddle
 })
 
+const btnBottom = document.querySelector('.bolt__btn-plus_bottom')
+const tooltipBottom = document.querySelector('.bolt__tooltip_bottom')
+
+let isShowBottom = false
+btnBottom.addEventListener('click', function (event) {
+
+  if (!isShowBottom) {
+    tooltipBottom.style.display = 'block'
+  } else {
+    tooltipBottom.style.display = 'none'
+  }
+
+  isShowBottom = !isShowBottom
+})
+
 
 const originBolt = document.querySelector('.bolt-inner__img')
 

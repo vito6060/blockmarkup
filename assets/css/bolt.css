@@ -51,20 +51,27 @@
   display: none;
 }
 
+
 .bolt__tooltip_top {
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 30px;
+  left: -305px;
+
 }
 
 .bolt__tooltip_middle {
-  top: 100px;
-  left: 0;
+  position: absolute;
+  top: -29px;
+  left: 49px;
 }
 
 .bolt__tooltip_bottom {
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  top: 144px;
+  left: -288px;
+  z-index: 2;
 }
+
 
 
 
