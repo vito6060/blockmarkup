@@ -1,0 +1,6 @@
+скинуть
+1. var vs let
+2. fifo, lifo
+3. области видимости
+4. замыкание
+5. http://rodnya.moscow/index.php

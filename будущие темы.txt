@@ -1,4 +1,4 @@
-- before, after
++ before, after
 - адаптация
 - ssh
 - PR
@@ -7,3 +7,7 @@
 - Препроцессоры
 - Gulp
 - import/export
+- onclick, addEventListener
+- области видимости
+- замыкание урок 8
+- radio/check box
