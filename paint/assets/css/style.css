@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+
+.page {
+  margin: 0 auto;
+  width: 700px;
+  height: 80vh;
+  border: 2px #000 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

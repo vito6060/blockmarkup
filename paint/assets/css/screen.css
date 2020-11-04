@@ -1,0 +1,6 @@
+.screen {
+  margin: 0 auto;
+  width: 80%;
+  height: 40%;
+  border: 2px red solid;
+}

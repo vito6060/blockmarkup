@@ -102,7 +102,7 @@ https://learn.javascript.ru/event-delegation
 
 ДЗ:
 1. +border-radius у плюсиков добавить (6px)
-2. Посмотреть https://developer.mozilla.org/ru/docs/Web/API/Element/classList
+2. +Посмотреть https://developer.mozilla.org/ru/docs/Web/API/Element/classList
 3. +Доделать 3 плюсик
 4. Домашка на делегирование событий
 5. Прочитать https://learn.javascript.ru/arguments-pseudoarray

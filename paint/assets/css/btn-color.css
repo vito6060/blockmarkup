@@ -1,0 +1,14 @@
+.btn-color {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.btn-color__item {
+  width: 50px;
+  height: 50px;
+  margin: 15px 20px;
+
+  border: 2px red solid;
+}
