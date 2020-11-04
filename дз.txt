@@ -82,7 +82,7 @@ http://shpargalkablog.ru/2013/11/trapeze.html
 3. +Глянуть про объекты
 +https://learn.javascript.ru/object-copy
 +https://learn.javascript.ru/object-methods
-4. Глянуть как работает forEach, map, reduce, filter, some, even
+4. Глянуть как работает forEach, map, reduce, filter, some, every
 5. (!Попробую еще сам понять!) Написать делегирование событий
 https://learn.javascript.ru/event-delegation
 На почитать про всплытие событий в js
@@ -114,3 +114,18 @@ https://learn.javascript.ru/event-delegation
 2. дать 5 домашку
 3. подготовить материалы для стрелочных функций
 4. дать 4 домашку
+
+====== Lesson 7 ======
+
+Дз:
+Выполнить две каты
+https://www.codewars.com/kata/515e271a311df0350d00000f
+https://www.codewars.com/kata/5a2be17aee1aaefe2a000151
+
+Саня:
+1. Скинуть про версии библиотек
+2. Скинуть пару на js с codewars
+3.
+
+Полезные ссылки:
+1. https://babeljs.io/
