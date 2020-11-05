@@ -11,4 +11,9 @@
   margin: 15px 20px;
 
   border: 2px red solid;
+  border-radius: 50%;
+}
+
+.btn-color__item:focus {
+  outline: none;
 }

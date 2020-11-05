@@ -1,14 +1,3 @@
-// function Sum1(Arr, N) {
-//   var len = Arr.length, sum = 0
-//
-//   for (var i = 0; i < 10; i++) {
-//     if (Arr[i] > N) sum += Arr[i] * Arr[i]
-//   }
-//
-//   return sum
-// }
-//
-// alert(Sum1(2, 3))
 
 // найти большой квадрат (БК)
 // найти список квадратов-кнопок
@@ -26,4 +15,33 @@
 // функция изменения цвета
 // достать value из dataset
 // перерисовать БК
+
+
+// function callBack(n) {
+//     return function(num) {
+//         return n * num;
+//     }
+// }
+
+// const comCallBack = callBack('5')
+
+
+// console.log(comCallBack('10'))
+
+let screen = document.getElementById('scr')
+let btncol = document.getElementById('btncol')
+let input = document.getElementById('imp')
+let addBtn = document.getElementById('add')
+
+function addColor() {
+    
+}
+
+
+
+
+
+
+
+
 
