@@ -17,25 +17,22 @@
 // перерисовать БК
 
 
-// function callBack(n) {
-//     return function(num) {
-//         return n * num;
-//     }
-// }
+let screen = document.getElementById('screen')
+let btnList = document.getElementById('btnList')
+let inputColor = document.getElementById('color')
+let btnAdd = document.getElementById('add')
 
-// const comCallBack = callBack('5')
-
-
-// console.log(comCallBack('10'))
-
-let screen = document.getElementById('scr')
-let btncol = document.getElementById('btncol')
-let input = document.getElementById('imp')
-let addBtn = document.getElementById('add')
+console.log(screen)
+console.log(btnList)
+console.log(inputColor)
+console.log(btnAdd)
 
 function addColor() {
-    
+  console.log(inputColor.value)
+  screen.style.background = `#${inputColor.value}`
 }
+
+btnAdd.addEventListener('click', addColor)
 
 
 
