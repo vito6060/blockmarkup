@@ -11,3 +11,9 @@
   border: 2px red solid;
   text-align: center;
 }
+
+.btn__label {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
