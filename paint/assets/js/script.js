@@ -1,4 +1,3 @@
-
 // найти большой квадрат (БК)-------
 // найти список квадратов-кнопок-------
 // найти инпут-------
@@ -9,8 +8,6 @@
 // функция добавления
 // достать value
 // присвоить БК это value в background
-// создать, окрасить, присвоить data-value, добавить классы кнопке
-// вставить кнопку в список
 
 // функция изменения цвета
 // достать value из dataset
@@ -38,28 +35,46 @@ console.log(inputColor)
 console.log(btnAdd)
 console.log(btnListItem)
 
+const MAX_LIST_BTNS = 8
+
+
 function addColor() {
+  const btns = document.querySelectorAll('.btn-color__item')
+  const length = btns.length
+
+  if (length >= MAX_LIST_BTNS) return
+
   console.log(inputColor.value)
-  btnListItem.style.background = `#${inputColor.value}`
+  // создать кнопку - document.createElement
+  // создать, окрасить, присвоить data-value, добавить классы кнопке
+  // вставить кнопку в список
+  btnListItem.style.background = `#${ inputColor.value }`
 }
 
 btnAdd.addEventListener('click', addColor)
 
-function paintingScreen() {
-  console.log(screen.value)
-  screen.style.background = btnListItem.style.background
-}
+// function paintScreen() {
+//   console.log(screen.value)
+//   screen.style.background = btnListItem.style.background
+// }
 
-btnListItem.addEventListener('click', paintingScreen)
+// btnListItem.addEventListener('click', paintScreen)
 
 function commandColor() {
 
 }
 
 
+const myBtn = createButton('КНОПКА')
+const myBtn2 = createButton('КНОПКА2')
 
+btnList.append(myBtn)
+btnList.append(myBtn2)
 
+function createButton(text) {
+  const myBtn = document.createElement('button')
+  myBtn.classList.add('myBtn')
+  myBtn.innerText = text
 
-
-
-
+  return myBtn
+}

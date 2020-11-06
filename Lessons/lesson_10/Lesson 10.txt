@@ -6,3 +6,5 @@
 (Не совсем понял смысл)
 5. Split что значит ? (Присваивайте чему угодно с левой стороны(https://learn.javascript.ru/destructuring-assignment))
 
+ДЗ:
+- https://learn.javascript.ru/document Прочитать 2,3,7,8
