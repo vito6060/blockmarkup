@@ -50,8 +50,8 @@ function addColor() {
   // вставить кнопку в список
   btnListItem.style.background = `#${ inputColor.value }`
 }
-
-btnAdd.addEventListener('click', addColor)
+//
+// btnAdd.addEventListener('click', addColor)
 
 // function paintScreen() {
 //   console.log(screen.value)
@@ -59,17 +59,13 @@ btnAdd.addEventListener('click', addColor)
 // }
 
 // btnListItem.addEventListener('click', paintScreen)
-
-function commandColor() {
-
-}
-
-
 const myBtn = createButton('КНОПКА')
 const myBtn2 = createButton('КНОПКА2')
+const myBtn3 = createButton('КНОПКА3')
 
 btnList.append(myBtn)
 btnList.append(myBtn2)
+btnList.append(myBtn3)
 
 function createButton(text) {
   const myBtn = document.createElement('button')
@@ -78,3 +74,5 @@ function createButton(text) {
 
   return myBtn
 }
+
+btnAdd.addEventListener('click', addColor)

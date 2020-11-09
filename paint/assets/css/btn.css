@@ -1,19 +1,32 @@
 .btn__box {
   display: flex;
-  padding: 10px;
+  padding-top: 9px;
+  padding-left: 11px;
+  font-size: 16px;
 }
 
 .btn {
   display: block;
-  margin: 0 40px;
-  padding: 20px;
-  width: 100px;
-  border: 2px red solid;
+  margin: 0 6px;
+  /*padding: 20px;*/
+  width: 110px;
+  border: 3px black solid;
   text-align: center;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .btn__label {
   display: flex;
   align-items: center;
   height: 30px;
+  font-size: 14px;
+}
+
+.btn__input {
+  border: 3px black solid;
+  width: 82px;
+  margin-left: 4px;
+  padding:2px;
+  font-size: 15px;
 }
