@@ -17,12 +17,18 @@
 //======================================
 
 // const arr = Array(5);
+// arr.fill({ a: 10 })
 //
-// console.log(arr.fill({ a: 10 }))
+// console.log(arr)
+//
+// const obj = arr[0]
+// obj.a = 20
+//
+// console.log(arr)
 
 //======================================
 
-const arr = Array(5);
-const obj ={ a: 10 };
+const arr = Array(5)
+const obj = { a: 10 }
 
-console.log(arr.fill({ a: 10 }))
+console.log(arr.fill(obj))

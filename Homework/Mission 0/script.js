@@ -1,11 +1,5 @@
+const array1 = [0, 5, 15, 14]
+const array2 = Array(1, 2, 5, 'apple', 5514)
 
-// Литерал массива
-//const array = [0,5,15,14];
-//console.log(array)
-
-// =======================================
-// Конструктор Array
-
- const array = Array(1,2,5,'apple',5514);
-
-console.log(array)
+console.log(array1)
+console.log(array2)

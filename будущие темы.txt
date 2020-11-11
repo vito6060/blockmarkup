@@ -14,3 +14,7 @@
 - генераторы
 - Symbol
 - Map, Set
+- spread
+
+CSS
+- специфичность
